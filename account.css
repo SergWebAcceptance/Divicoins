@@ -1,7 +1,6 @@
 body.referral_form, body.reset, body.login, body.register {
   background: #242424;
 }
-
 body.referral_form nav#mainNav1, body.reset nav#mainNav1, body.login nav#mainNav1, body.register nav#mainNav1 {
   background: #242424 !important;
 }
@@ -67,7 +66,7 @@ body.referral_form .register-form select.custom-select, body.reset .register-for
 body.referral_form .register-form label.col-sm-4.control-label, body.reset .register-form label.col-sm-4.control-label, body.login .register-form label.col-sm-4.control-label, body.register .register-form label.col-sm-4.control-label {
   max-width: 100% !important;
 }
-body.referral_form #login-form button#formSubmitButton, body.reset #login-form button#formSubmitButton, body.login #login-form button#formSubmitButton, body.register #login-form button#formSubmitButton, body.referral_form .register-form button#formSubmitButton, body.reset .register-form button#formSubmitButton, body.login .register-form button#formSubmitButton, body.register .register-form button#formSubmitButton, body.referral_form #by-email button#formSubmitButton, body.reset #by-email button#formSubmitButton, body.login #by-email button#formSubmitButton, body.register #by-email button#formSubmitButton, body.referral_form #referral-form button#formSubmitButton, body.reset #referral-form button#formSubmitButton, body.login #referral-form button#formSubmitButton, body.register #referral-form button#formSubmitButton {
+body.referral_form #login-form button#formSubmitButton, body.reset #login-form button#formSubmitButton, body.login #login-form button#formSubmitButton, body.register #login-form button#formSubmitButton, body.referral_form .register-form button#formSubmitButton, body.reset .register-form button#formSubmitButton, body.login .register-form button#formSubmitButton, body.register .register-form button#formSubmitButton, body.referral_form #by-email button#formSubmitButton, body.login #by-email button#formSubmitButton, body.register #by-email button#formSubmitButton, body.referral_form #referral-form button#formSubmitButton, body.reset #referral-form button#formSubmitButton, body.login #referral-form button#formSubmitButton, body.register #referral-form button#formSubmitButton {
   display: block;
   width: 100% !important;
   border-radius: 0;
@@ -85,6 +84,26 @@ body.referral_form #login-form button#formSubmitButton, body.reset #login-form b
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
+body.reset #by-email button#formSubmitButton{
+  display: block;
+  width: 100% !important;
+  border-radius: 0;
+  background: linear-gradient(90deg, #EB00AF 0.2%, #F3A936 112.45%), #20D3E0;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  outline: none !important;
+  border: none;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 body.referral_form #login-form .row.form-group .ml-1.d-inline a, body.reset #login-form .row.form-group .ml-1.d-inline a, body.login #login-form .row.form-group .ml-1.d-inline a, body.register #login-form .row.form-group .ml-1.d-inline a {
   color: #20D3E0;
   text-align: center;
