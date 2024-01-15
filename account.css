@@ -1,156 +1,149 @@
-nav#mainNav1 {
-    background: rgba(36, 36, 36, 1)!important;
+body.referral_form, body.reset, body.login, body.register {
+  background: #242424;
 }
-body.divicoins{
-    background:rgba(36, 36, 36, 1);
+body.referral_form nav#mainNav1, body.reset nav#mainNav1, body.login nav#mainNav1, body.register nav#mainNav1 {
+  background: #242424 !important;
 }
-body:not(.main-page) #mainNav1.navbar-default .nav>li>a {
-    color: #fff;
+body.referral_form #mainNav1.navbar-default .nav > li > a, body.reset #mainNav1.navbar-default .nav > li > a, body.login #mainNav1.navbar-default .nav > li > a, body.register #mainNav1.navbar-default .nav > li > a {
+  color: #fff;
 }
-body:not(.main-page) #mainNav1.navbar-default .nav .navAuthLinks a {
-    background:rgba(36, 36, 36, 1);
-    color: rgba(32, 211, 224, 1);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    border: 2px solid rgba(32, 211, 224, 1)!important;
+body.referral_form #mainNav1.navbar-default .nav .navAuthLinks a, body.reset #mainNav1.navbar-default .nav .navAuthLinks a, body.login #mainNav1.navbar-default .nav .navAuthLinks a, body.register #mainNav1.navbar-default .nav .navAuthLinks a {
+  background: #242424;
+  color: #20d3e0;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 2px solid #20d3e0 !important;
 }
-body:not(.main-page) #mainNav1.navbar-default .nav .navAuthLinks a:hover{
-    background-color:rgba(32, 211, 224, 1)!important;
+body.referral_form #mainNav1.navbar-default .nav .navAuthLinks a:hover, body.reset #mainNav1.navbar-default .nav .navAuthLinks a:hover, body.login #mainNav1.navbar-default .nav .navAuthLinks a:hover, body.register #mainNav1.navbar-default .nav .navAuthLinks a:hover {
+  background-color: #20d3e0 !important;
 }
-#mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-toggle {
-    background: transparent!important;
-    border: none;
-    color: #fff!important;
+body.referral_form #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-toggle, body.reset #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-toggle, body.login #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-toggle, body.register #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-toggle {
+  background: transparent !important;
+  border: none;
+  color: #fff !important;
 }
-body:not(.main-page) #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-menu {
-    padding: 0;
-    border: none;
+body.referral_form #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-menu, body.reset #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-menu, body.login #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-menu, body.register #mainNav1.navbar-default .lang-list .bootstrap-select .dropdown-menu {
+  padding: 0;
+  border: none;
 }
-a.dropdown-item.selected.active {
-    background: #FFA502!important;
+body.referral_form a.dropdown-item.selected.active, body.reset a.dropdown-item.selected.active, body.login a.dropdown-item.selected.active, body.register a.dropdown-item.selected.active {
+  background: #FFA502 !important;
 }
-
-.register-form .row.form-group, #login-form .row.form-group, #by-email .row.form-group, #referral-form .row.form-group{
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-    margin: 0 auto;
+body.referral_form .register-form .row.form-group, body.reset .register-form .row.form-group, body.login .register-form .row.form-group, body.register .register-form .row.form-group, body.referral_form #login-form .row.form-group, body.reset #login-form .row.form-group, body.login #login-form .row.form-group, body.register #login-form .row.form-group, body.referral_form #by-email .row.form-group, body.reset #by-email .row.form-group, body.login #by-email .row.form-group, body.register #by-email .row.form-group, body.referral_form #referral-form .row.form-group, body.reset #referral-form .row.form-group, body.login #referral-form .row.form-group, body.register #referral-form .row.form-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0 auto;
 }
-
-.register-form .row.form-group label, #login-form .row.form-group label, #by-email .row.form-group label, #referral-form .row.form-group label{
-    color:#fff;
-    font-size: 14px;
+body.referral_form .register-form .row.form-group label, body.reset .register-form .row.form-group label, body.login .register-form .row.form-group label, body.register .register-form .row.form-group label, body.referral_form #login-form .row.form-group label, body.reset #login-form .row.form-group label, body.login #login-form .row.form-group label, body.register #login-form .row.form-group label, body.referral_form #by-email .row.form-group label, body.reset #by-email .row.form-group label, body.login #by-email .row.form-group label, body.register #by-email .row.form-group label, body.referral_form #referral-form .row.form-group label, body.reset #referral-form .row.form-group label, body.login #referral-form .row.form-group label, body.register #referral-form .row.form-group label {
+  color: #fff;
+  font-size: 14px;
 }
-
-.register-form .row.form-group>div, #login-form .row.form-group>div, #by-email .row.form-group>div, #referral-form .row.form-group>div{
-    width: 100%!important;
-    max-width: 100%;
+body.referral_form .register-form .row.form-group > div, body.reset .register-form .row.form-group > div, body.login .register-form .row.form-group > div, body.register .register-form .row.form-group > div, body.referral_form #login-form .row.form-group > div, body.reset #login-form .row.form-group > div, body.login #login-form .row.form-group > div, body.register #login-form .row.form-group > div, body.referral_form #by-email .row.form-group > div, body.reset #by-email .row.form-group > div, body.login #by-email .row.form-group > div, body.register #by-email .row.form-group > div, body.referral_form #referral-form .row.form-group > div, body.reset #referral-form .row.form-group > div, body.login #referral-form .row.form-group > div, body.register #referral-form .row.form-group > div {
+  width: 100% !important;
+  max-width: 100%;
 }
-.register-form hr, #login-form hr, #by-email hr{
-    display:none;
+body.referral_form .register-form hr, body.reset .register-form hr, body.login .register-form hr, body.register .register-form hr, body.referral_form #login-form hr, body.reset #login-form hr, body.login #login-form hr, body.register #login-form hr, body.referral_form #by-email hr, body.reset #by-email hr, body.login #by-email hr, body.register #by-email hr {
+  display: none;
 }
-
-#login-form input.form-control, .register-form input.form-control, #by-email input.form-control, #referral-form input.form-control{
-    border-radius: 0px;
-    border: 1px solid #616161!important;
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
+body.referral_form #login-form input.form-control, body.reset #login-form input.form-control, body.login #login-form input.form-control, body.register #login-form input.form-control, body.referral_form .register-form input.form-control, body.reset .register-form input.form-control, body.login .register-form input.form-control, body.register .register-form input.form-control, body.referral_form #by-email input.form-control, body.reset #by-email input.form-control, body.login #by-email input.form-control, body.register #by-email input.form-control, body.referral_form #referral-form input.form-control, body.reset #referral-form input.form-control, body.login #referral-form input.form-control, body.register #referral-form input.form-control {
+  border-radius: 0px;
+  border: 1px solid #616161 !important;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
 }
-.register-form select.custom-select {
-    border-radius: 0;
-    border: 1px solid #616161!important;
-    background-color: rgba(255, 255, 255, 0.05);
-    color: #fff;
-    font-size: 14px!important;
+body.referral_form .register-form select.custom-select, body.reset .register-form select.custom-select, body.login .register-form select.custom-select, body.register .register-form select.custom-select {
+  border-radius: 0;
+  border: 1px solid #616161 !important;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 14px !important;
 }
-.register-form label.col-sm-4.control-label {
-    max-width: 100%!important;
+body.referral_form .register-form label.col-sm-4.control-label, body.reset .register-form label.col-sm-4.control-label, body.login .register-form label.col-sm-4.control-label, body.register .register-form label.col-sm-4.control-label {
+  max-width: 100% !important;
 }
-
-#login-form button#formSubmitButton, .register-form button#formSubmitButton, #by-email button#formSubmitButton, #referral-form button#formSubmitButton{
-    display: block;
-    width: 100%!important;
-    border-radius: 0;
-    background: linear-gradient(90deg, #EB00AF 0.2%, #F3A936 112.45%), #20D3E0;
-    color: #FFF;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    text-transform: uppercase;
-    outline: none!important;
-    border:none;
-    height: 50px;
-    border-radius: 8px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+body.referral_form #login-form button#formSubmitButton, body.reset #login-form button#formSubmitButton, body.login #login-form button#formSubmitButton, body.register #login-form button#formSubmitButton, body.referral_form .register-form button#formSubmitButton, body.reset .register-form button#formSubmitButton, body.login .register-form button#formSubmitButton, body.register .register-form button#formSubmitButton, body.referral_form #by-email button#formSubmitButton, body.reset #by-email button#formSubmitButton, body.login #by-email button#formSubmitButton, body.register #by-email button#formSubmitButton, body.referral_form #referral-form button#formSubmitButton, body.reset #referral-form button#formSubmitButton, body.login #referral-form button#formSubmitButton, body.register #referral-form button#formSubmitButton {
+  display: block;
+  width: 100% !important;
+  border-radius: 0;
+  background: linear-gradient(90deg, #EB00AF 0.2%, #F3A936 112.45%), #20D3E0;
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  outline: none !important;
+  border: none;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-#login-form .row.form-group .ml-1.d-inline a {
-    color: #20D3E0;
-    text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    line-height: normal;
-    font-weight: 400;
-    text-align: center;
-    display: block;
+body.referral_form #login-form .row.form-group .ml-1.d-inline a, body.reset #login-form .row.form-group .ml-1.d-inline a, body.login #login-form .row.form-group .ml-1.d-inline a, body.register #login-form .row.form-group .ml-1.d-inline a {
+  color: #20D3E0;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  text-align: center;
+  display: block;
 }
-form.form-horizontal.register-form>div, #referral-form>div {
-    margin: 10px auto!important;
+body.referral_form form.form-horizontal.register-form > div, body.reset form.form-horizontal.register-form > div, body.login form.form-horizontal.register-form > div, body.register form.form-horizontal.register-form > div, body.referral_form #referral-form > div, body.reset #referral-form > div, body.login #referral-form > div, body.register #referral-form > div {
+  margin: 10px auto !important;
 }
-#login-form>div {
-    margin: 10px auto!important;
+body.referral_form #login-form > div, body.reset #login-form > div, body.login #login-form > div, body.register #login-form > div {
+  margin: 10px auto !important;
 }
-label.custom-control-label a {
-    color: rgba(32, 211, 224, 1);
+body.referral_form label.custom-control-label a, body.reset label.custom-control-label a, body.login label.custom-control-label a, body.register label.custom-control-label a {
+  color: #20d3e0;
 }
-
-#bitFormWrapperBody #referral-form select.custom-select {
-    border-radius: 15px 0 0 15px;
-    border: 1px solid #D9D9D9!important;
-    background-color: #F1F1F1;
-    /* border-color: #D9D9D9!important; */
+body.referral_form #referral-form select.custom-select, body.reset #referral-form select.custom-select, body.login #referral-form select.custom-select, body.register #referral-form select.custom-select {
+  border-radius: 15px 0 0 15px;
+  border: 1px solid #D9D9D9 !important;
+  background-color: #F1F1F1;
+  /* border-color: #D9D9D9!important; */
 }
-#bitFormWrapperBody #referral-form span.select2 .select2-selection{
-    border-radius: 15px;
-    border: 1px solid #D9D9D9!important;
-    background-color: #F1F1F1;
+body.referral_form #referral-form span.select2 .select2-selection, body.reset #referral-form span.select2 .select2-selection, body.login #referral-form span.select2 .select2-selection, body.register #referral-form span.select2 .select2-selection {
+  border-radius: 15px;
+  border: 1px solid #D9D9D9 !important;
+  background-color: #F1F1F1;
 }
-#bitFormWrapperBody #referral-form select.custom-select+input{
-    border-radius:0 15px 15px 0;
+body.referral_form #referral-form select.custom-select + input, body.reset #referral-form select.custom-select + input, body.login #referral-form select.custom-select + input, body.register #referral-form select.custom-select + input {
+  border-radius: 0 15px 15px 0;
 }
-
-#referral-form label.col-sm-4.control-label {
-    max-width: 100%!important;
+body.referral_form #referral-form label.col-sm-4.control-label, body.reset #referral-form label.col-sm-4.control-label, body.login #referral-form label.col-sm-4.control-label, body.register #referral-form label.col-sm-4.control-label {
+  max-width: 100% !important;
 }
-.custom-checkbox .custom-control-label:before, .custom-control-input:checked~.custom-control-label:before {
-    border-radius: 0;
-    border: 1px solid #616161;
-    background: #2F2F2F;
+body.referral_form .custom-checkbox .custom-control-label:before, body.reset .custom-checkbox .custom-control-label:before, body.login .custom-checkbox .custom-control-label:before, body.register .custom-checkbox .custom-control-label:before, body.referral_form .custom-control-input:checked ~ .custom-control-label:before, body.reset .custom-control-input:checked ~ .custom-control-label:before, body.login .custom-control-input:checked ~ .custom-control-label:before, body.register .custom-control-input:checked ~ .custom-control-label:before {
+  border-radius: 0;
+  border: 1px solid #616161;
+  background: #2F2F2F;
 }
-.custom-checkbox .custom-control-input:checked~.custom-control-label:after {
-    background-image: none;
-    background-color: rgba(32, 211, 224, 1);
-    width: 10px;
-    height: 10px;
-    left: -20.5px;
-    top: 7.5px;
+body.referral_form .custom-checkbox .custom-control-input:checked ~ .custom-control-label:after, body.reset .custom-checkbox .custom-control-input:checked ~ .custom-control-label:after, body.login .custom-checkbox .custom-control-input:checked ~ .custom-control-label:after, body.register .custom-checkbox .custom-control-input:checked ~ .custom-control-label:after {
+  background-image: none;
+  background-color: #20d3e0;
+  width: 10px;
+  height: 10px;
+  left: -20.5px;
+  top: 7.5px;
 }
-.footer-payments {
-    background: #242424;
+body.referral_form .footer-payments, body.reset .footer-payments, body.login .footer-payments, body.register .footer-payments {
+  background: #242424;
 }
-.eye-toggle {
-    color: #fff!important;
+body.referral_form .eye-toggle, body.reset .eye-toggle, body.login .eye-toggle, body.register .eye-toggle {
+  color: #fff !important;
 }
-body:not(.main-page) #mainNav1.navbar-default .navbar-toggle{
-    background-color: rgba(32, 211, 224, 1);
-    color:#242424;
-    border-radius:0;
+body.referral_form #mainNav1.navbar-default .navbar-toggle, body.reset #mainNav1.navbar-default .navbar-toggle, body.login #mainNav1.navbar-default .navbar-toggle, body.register #mainNav1.navbar-default .navbar-toggle {
+  background-color: #20d3e0;
+  color: #242424;
+  border-radius: 0;
 }
-.register-form select.custom-select option {
-    background: #242424;
+body.referral_form .register-form select.custom-select option, body.reset .register-form select.custom-select option, body.login .register-form select.custom-select option, body.register .register-form select.custom-select option {
+  background: #242424;
 }
