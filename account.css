@@ -1,6 +1,7 @@
 body.referral_form, body.reset, body.login, body.register {
   background: #242424;
 }
+
 body.referral_form nav#mainNav1, body.reset nav#mainNav1, body.login nav#mainNav1, body.register nav#mainNav1 {
   background: #242424 !important;
 }
